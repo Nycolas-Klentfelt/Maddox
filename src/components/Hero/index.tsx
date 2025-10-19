@@ -14,7 +14,9 @@ const Hero = () => (
             autoestima, conte com a Maddox nessa jornada de autocuidado e
             transformação
           </Text>
-          <Button>Agende seu horário</Button>
+          <Button href="http://wa.me/5541997019462" target="_blank">
+            Agende seu horário
+          </Button>
         </div>
       </Background>
     </Banner>
