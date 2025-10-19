@@ -1,0 +1,41 @@
+import { Button } from '../../styles'
+import { Banner, Title, Text, ExpClient } from './styles'
+
+const Hero = () => (
+  <>
+    <Banner>
+      <div className="container">
+        <Title>
+          REDESCUBRA SUA <span>BELEZA NATURAL</span>
+        </Title>
+        <Text>
+          Se você está buscando revitalizar sua aparência e elevar sua
+          autoestima, conte com a Maddox nessa jornada de autocuidado e
+          transformação
+        </Text>
+        <Button>Agende seu horário</Button>
+      </div>
+    </Banner>
+    <ExpClient>
+      <div className="container">
+        <div>
+          <h3>Experiência e Qualidade</h3>
+          <p>Profissionais especializadas e em constante atualização.</p>
+        </div>
+        <div>
+          <h3>Atendimento Personalizado</h3>
+          <p>Cada cliente é única e recebe um tratamento exclusivo.</p>
+        </div>
+        <div>
+          <h3>Tecnologia e Inovação</h3>
+          <p>
+            Equipamentos modernos e técnicas avançadas para resultados
+            incríveis.
+          </p>
+        </div>
+      </div>
+    </ExpClient>
+  </>
+)
+
+export default Hero
