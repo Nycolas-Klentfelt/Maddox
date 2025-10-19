@@ -1,20 +1,22 @@
 import { Button } from '../../styles'
-import { Banner, Title, Text, ExpClient } from './styles'
+import { Background, Banner, Title, Text, ExpClient } from './styles'
 
 const Hero = () => (
   <>
     <Banner>
-      <div className="container">
-        <Title>
-          REDESCUBRA SUA <span>BELEZA NATURAL</span>
-        </Title>
-        <Text>
-          Se você está buscando revitalizar sua aparência e elevar sua
-          autoestima, conte com a Maddox nessa jornada de autocuidado e
-          transformação
-        </Text>
-        <Button>Agende seu horário</Button>
-      </div>
+      <Background>
+        <div className="container">
+          <Title>
+            REDESCUBRA SUA <span>BELEZA NATURAL</span>
+          </Title>
+          <Text>
+            Se você está buscando revitalizar sua aparência e elevar sua
+            autoestima, conte com a Maddox nessa jornada de autocuidado e
+            transformação
+          </Text>
+          <Button>Agende seu horário</Button>
+        </div>
+      </Background>
     </Banner>
     <ExpClient>
       <div className="container">

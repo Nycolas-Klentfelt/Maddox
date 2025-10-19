@@ -5,15 +5,17 @@ import { Button } from '../../styles'
 import imgReception from '../../assets/images/receptionp.jpg'
 
 export const Banner = styled.div`
-  text-align: center;
-  padding-top: 160px;
-  background-color: #0000008a;
-
   @media (max-width: 600px) {
     background-image: url(${imgReception});
     background-repeat: no-repeat;
     background-size: 100%;
   }
+`
+
+export const Background = styled.div`
+  text-align: center;
+  padding-top: 160px;
+  background-color: rgba(0, 0, 0, 0.7);
 
   & > div {
     display: flex;
