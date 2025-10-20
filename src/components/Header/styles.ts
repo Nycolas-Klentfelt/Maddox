@@ -7,7 +7,7 @@ export const Container = styled.nav`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 90px;
     padding: 0 10px;
 
     @media (max-width: 600px) {

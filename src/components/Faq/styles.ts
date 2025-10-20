@@ -11,7 +11,7 @@ export const FaqItem = styled.li`
 export const FaqQuestion = styled.div<{ $isOpen: boolean }>`
   color: ${colors.primaryColor};
   font-size: 20px;
-  padding: 24px;
+  padding: 24px 46px 24px 24px;
   cursor: pointer;
   position: relative;
   font-weight: 600;

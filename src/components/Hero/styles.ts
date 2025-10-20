@@ -33,7 +33,7 @@ export const Background = styled.div`
   }
 
   @media (max-width: 600px) {
-    padding-top: 0;
+    padding-top: 20px;
   }
 `
 
@@ -48,7 +48,7 @@ export const Title = styled.h2`
   }
 
   @media (max-width: 600px) {
-    font-size: 36px;
+    font-size: 34px;
   }
 `
 
@@ -58,6 +58,11 @@ export const Text = styled.p`
   font-weight: 300;
   line-height: 1.8;
   color: ${colors.lightTextColor};
+
+  @media (max-width: 600px) {
+    font-size: 14px;
+    margin-bottom: 80px;
+  }
 `
 export const ExpClient = styled.div`
   background-color: ${colors.primaryColor};

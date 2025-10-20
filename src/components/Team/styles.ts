@@ -10,7 +10,7 @@ export const GridTeam = styled.div`
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 50px;
   max-width: 900px;
-  margin: 0 auto;
+  margin: 30px auto 0 auto;
 
   @media (max-width: 600px) {
     grid-template-columns: 1fr;
