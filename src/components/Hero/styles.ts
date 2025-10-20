@@ -14,8 +14,9 @@ export const Banner = styled.div`
 
 export const Background = styled.div`
   text-align: center;
-  padding-top: 160px;
+  padding-top: 100px;
   background-color: rgba(0, 0, 0, 0.7);
+  height: 100vh;
 
   & > div {
     display: flex;
@@ -34,6 +35,7 @@ export const Background = styled.div`
 
   @media (max-width: 600px) {
     padding-top: 20px;
+    height: auto;
   }
 `
 
