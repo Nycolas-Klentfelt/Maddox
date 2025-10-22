@@ -2,14 +2,13 @@ import styled from 'styled-components'
 import { colors } from '../../styles'
 import { Button } from '../../styles'
 
-import imgReception from '../../assets/images/receptionp.jpg'
+import bannerG from '../../assets/images/BannerG.jpg'
 
 export const Banner = styled.div`
-  @media (max-width: 600px) {
-    background-image: url(${imgReception});
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
+  background-image: url(${bannerG});
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 `
 
 export const Background = styled.div`
